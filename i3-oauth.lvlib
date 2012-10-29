@@ -16,6 +16,7 @@
 		<Item Name="HTTP Method.ctl" Type="VI" URL="../Controls/HTTP Method.ctl"/>
 		<Item Name="key-value-pairs.ctl" Type="VI" URL="../Controls/key-value-pairs.ctl"/>
 		<Item Name="OAuth Credentials.ctl" Type="VI" URL="../Controls/OAuth Credentials.ctl"/>
+		<Item Name="Search Key-Value-Pair by Key.vi" Type="VI" URL="../Controls/Search Key-Value-Pair by Key.vi"/>
 		<Item Name="Signature Method.ctl" Type="VI" URL="../Controls/Signature Method.ctl"/>
 	</Item>
 	<Item Name="Pin Access Files" Type="Folder">
@@ -36,6 +37,9 @@
 		<Item Name="Generate Nonce.vi" Type="VI" URL="../Utilities/Generate Nonce.vi"/>
 		<Item Name="Get Unix Timestamp.vi" Type="VI" URL="../Utilities/Get Unix Timestamp.vi"/>
 		<Item Name="Read Tokens.vi" Type="VI" URL="../Utilities/Read Tokens.vi"/>
+	</Item>
+	<Item Name="Workflow" Type="Folder">
+		<Item Name="Parse Parameters Body.vi" Type="VI" URL="../Workflow/Parse Parameters Body.vi"/>
 	</Item>
 	<Item Name="Authenticate with Token.vi" Type="VI" URL="../Authenticate with Token.vi"/>
 	<Item Name="Authenticate without Token.vi" Type="VI" URL="../Authenticate without Token.vi"/>
