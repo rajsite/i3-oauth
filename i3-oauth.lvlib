@@ -4,11 +4,19 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Authenticate Files" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Base64_Conversion.vi" Type="VI" URL="../Authenticate Files/Base64_Conversion.vi"/>
+		<Item Name="Build Parameter String.vi" Type="VI" URL="../Authenticate Files/Build Parameter String.vi"/>
 		<Item Name="Combine Authenticate Parameters.vi" Type="VI" URL="../Authenticate Files/Combine Authenticate Parameters.vi"/>
 		<Item Name="Create Body.vi" Type="VI" URL="../Authenticate Files/Create Body.vi"/>
 		<Item Name="Create Header.vi" Type="VI" URL="../Authenticate Files/Create Header.vi"/>
 		<Item Name="Create URL.vi" Type="VI" URL="../Authenticate Files/Create URL.vi"/>
+		<Item Name="Encode Signature.vi" Type="VI" URL="../Authenticate Files/Encode Signature.vi"/>
+		<Item Name="Generate Nonce.vi" Type="VI" URL="../Authenticate Files/Generate Nonce.vi"/>
+		<Item Name="Generate Signature.vi" Type="VI" URL="../Authenticate Files/Generate Signature.vi"/>
+		<Item Name="Get Unix Timestamp.vi" Type="VI" URL="../Authenticate Files/Get Unix Timestamp.vi"/>
+		<Item Name="Percent Decode.vi" Type="VI" URL="../Authenticate Files/Percent Decode.vi"/>
 		<Item Name="Percent Encode - Body.vi" Type="VI" URL="../Authenticate Files/Percent Encode - Body.vi"/>
+		<Item Name="Percent Encode - OAuth.vi" Type="VI" URL="../Authenticate Files/Percent Encode - OAuth.vi"/>
 		<Item Name="Percent Encode - URL Query.vi" Type="VI" URL="../Authenticate Files/Percent Encode - URL Query.vi"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
@@ -16,30 +24,16 @@
 		<Item Name="HTTP Method.ctl" Type="VI" URL="../Controls/HTTP Method.ctl"/>
 		<Item Name="key-value-pairs.ctl" Type="VI" URL="../Controls/key-value-pairs.ctl"/>
 		<Item Name="OAuth Credentials.ctl" Type="VI" URL="../Controls/OAuth Credentials.ctl"/>
-		<Item Name="Search Key-Value-Pair by Key.vi" Type="VI" URL="../Controls/Search Key-Value-Pair by Key.vi"/>
 		<Item Name="Signature Method.ctl" Type="VI" URL="../Controls/Signature Method.ctl"/>
 	</Item>
 	<Item Name="Pin Access Files" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Exchange for Access Token.vi" Type="VI" URL="../Pin Access Files/Exchange for Access Token.vi"/>
-		<Item Name="Grant Pin Access.vi" Type="VI" URL="../Pin Access Files/Grant Pin Access.vi"/>
+		<Item Name="Parse Parameter - Body.vi" Type="VI" URL="../Pin Access Files/Parse Parameter - Body.vi"/>
+		<Item Name="Parse Parameter - URL.vi" Type="VI" URL="../Pin Access Files/Parse Parameter - URL.vi"/>
+		<Item Name="Read Tokens.vi" Type="VI" URL="../Pin Access Files/Read Tokens.vi"/>
 		<Item Name="Request Token.vi" Type="VI" URL="../Pin Access Files/Request Token.vi"/>
-	</Item>
-	<Item Name="Signature" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Build Parameter String.vi" Type="VI" URL="../Signature/Build Parameter String.vi"/>
-		<Item Name="Encode Signature.vi" Type="VI" URL="../Signature/Encode Signature.vi"/>
-		<Item Name="Generate Signature.vi" Type="VI" URL="../Signature/Generate Signature.vi"/>
-		<Item Name="Percent Encode - OAuth.vi" Type="VI" URL="../Signature/Percent Encode - OAuth.vi"/>
-	</Item>
-	<Item Name="Utilities" Type="Folder">
-		<Item Name="Base64_Conversion.vi" Type="VI" URL="../Utilities/Base64_Conversion.vi"/>
-		<Item Name="Generate Nonce.vi" Type="VI" URL="../Utilities/Generate Nonce.vi"/>
-		<Item Name="Get Unix Timestamp.vi" Type="VI" URL="../Utilities/Get Unix Timestamp.vi"/>
-		<Item Name="Read Tokens.vi" Type="VI" URL="../Utilities/Read Tokens.vi"/>
-	</Item>
-	<Item Name="Workflow" Type="Folder">
-		<Item Name="Parse Parameters Body.vi" Type="VI" URL="../Workflow/Parse Parameters Body.vi"/>
+		<Item Name="Search Key-Value-Pair by Key.vi" Type="VI" URL="../Pin Access Files/Search Key-Value-Pair by Key.vi"/>
 	</Item>
 	<Item Name="Authenticate with Token.vi" Type="VI" URL="../Authenticate with Token.vi"/>
 	<Item Name="Authenticate without Token.vi" Type="VI" URL="../Authenticate without Token.vi"/>
