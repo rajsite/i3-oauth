@@ -4,7 +4,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Authenticate Files" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Base64_Conversion.vi" Type="VI" URL="../Authenticate Files/Base64_Conversion.vi"/>
+		<Item Name="Authenticate without Access Token.vi" Type="VI" URL="../Authenticate Files/Authenticate without Access Token.vi"/>
+		<Item Name="Base64 Conversion.vi" Type="VI" URL="../Authenticate Files/Base64 Conversion.vi"/>
 		<Item Name="Build Parameter String.vi" Type="VI" URL="../Authenticate Files/Build Parameter String.vi"/>
 		<Item Name="Combine Authenticate Parameters.vi" Type="VI" URL="../Authenticate Files/Combine Authenticate Parameters.vi"/>
 		<Item Name="Create Body.vi" Type="VI" URL="../Authenticate Files/Create Body.vi"/>
@@ -19,24 +20,26 @@
 		<Item Name="Percent Encode - OAuth.vi" Type="VI" URL="../Authenticate Files/Percent Encode - OAuth.vi"/>
 		<Item Name="Percent Encode - URL Query.vi" Type="VI" URL="../Authenticate Files/Percent Encode - URL Query.vi"/>
 	</Item>
+	<Item Name="Browser Workflow Files" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Exchange for Access Token.vi" Type="VI" URL="../Browser Workflow Files/Exchange for Access Token.vi"/>
+		<Item Name="Parse Parameter - Body.vi" Type="VI" URL="../Browser Workflow Files/Parse Parameter - Body.vi"/>
+		<Item Name="Parse Parameter - URL.vi" Type="VI" URL="../Browser Workflow Files/Parse Parameter - URL.vi"/>
+		<Item Name="Read Tokens.vi" Type="VI" URL="../Browser Workflow Files/Read Tokens.vi"/>
+		<Item Name="Request Token.vi" Type="VI" URL="../Browser Workflow Files/Request Token.vi"/>
+		<Item Name="Search by Name.vi" Type="VI" URL="../Browser Workflow Files/Search by Name.vi"/>
+	</Item>
 	<Item Name="Controls" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Authorization URLs.ctl" Type="VI" URL="../Controls/Authorization URLs.ctl"/>
+		<Item Name="Credentials.ctl" Type="VI" URL="../Controls/Credentials.ctl"/>
 		<Item Name="HTTP Method.ctl" Type="VI" URL="../Controls/HTTP Method.ctl"/>
-		<Item Name="key-value-pairs.ctl" Type="VI" URL="../Controls/key-value-pairs.ctl"/>
-		<Item Name="OAuth Credentials.ctl" Type="VI" URL="../Controls/OAuth Credentials.ctl"/>
+		<Item Name="Name-Value Pair.ctl" Type="VI" URL="../Controls/Name-Value Pair.ctl"/>
+		<Item Name="OAuth Handle.ctl" Type="VI" URL="../Controls/OAuth Handle.ctl"/>
 		<Item Name="Signature Method.ctl" Type="VI" URL="../Controls/Signature Method.ctl"/>
 	</Item>
-	<Item Name="Pin Access Files" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Exchange for Access Token.vi" Type="VI" URL="../Pin Access Files/Exchange for Access Token.vi"/>
-		<Item Name="Parse Parameter - Body.vi" Type="VI" URL="../Pin Access Files/Parse Parameter - Body.vi"/>
-		<Item Name="Parse Parameter - URL.vi" Type="VI" URL="../Pin Access Files/Parse Parameter - URL.vi"/>
-		<Item Name="Read Tokens.vi" Type="VI" URL="../Pin Access Files/Read Tokens.vi"/>
-		<Item Name="Request Token.vi" Type="VI" URL="../Pin Access Files/Request Token.vi"/>
-		<Item Name="Search Key-Value-Pair by Key.vi" Type="VI" URL="../Pin Access Files/Search Key-Value-Pair by Key.vi"/>
-	</Item>
-	<Item Name="Authenticate with Token.vi" Type="VI" URL="../Authenticate with Token.vi"/>
-	<Item Name="Authenticate without Token.vi" Type="VI" URL="../Authenticate without Token.vi"/>
+	<Item Name="Authenticate with Access Token.vi" Type="VI" URL="../Authenticate with Access Token.vi"/>
+	<Item Name="Browser Workflow Authentication.vi" Type="VI" URL="../Browser Workflow Authentication.vi"/>
+	<Item Name="Build OAuth Handle.vi" Type="VI" URL="../Build OAuth Handle.vi"/>
 	<Item Name="Build Parameter.vi" Type="VI" URL="../Build Parameter.vi"/>
-	<Item Name="Get Pin Access.vi" Type="VI" URL="../Get Pin Access.vi"/>
 </Library>
