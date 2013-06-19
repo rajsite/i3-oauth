@@ -1,6 +1,6 @@
-The MIT License (MIT)
+Interactive Internet Interface: OAuth Toolkit for LabVIEW (i3 OAuth)
 
-Copyright (c) 2012 Milan Raj, Rohama Khadija, Courtney Lessard, Chris Vincent
+Copyright (c) 2013 Milan Raj, Rohama Khadija, Courtney Lessard, Chris Vincent
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
