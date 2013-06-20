@@ -13,6 +13,9 @@
 		<Item Name="Examples" Type="Folder" URL="../Examples">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Libs" Type="Folder" URL="../Libs">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="i3-oauth.lvlib" Type="Library" URL="../i3-oauth.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -46,7 +49,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="i3-external-encryption.lvlib" Type="Library" URL="../../i3-external-encryption/i3-external-encryption.lvlib"/>
-			<Item Name="i3-external-tools.lvlib" Type="Library" URL="../../i3-external-tools/i3-external-tools.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
